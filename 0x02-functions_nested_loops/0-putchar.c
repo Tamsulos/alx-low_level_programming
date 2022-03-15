@@ -6,12 +6,12 @@
  **/
 int main(void)
 {
-	char tamsulos[]= "_putchar";
+	char tamsulos[] = "_putchar";
 
 	int c;
 
 	for (c = 0; c < 8; c++)
-        {
+	{
 		_putchar(tamsulos[c]);
 	}
 	_putchar('\n');
